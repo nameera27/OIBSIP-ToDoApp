@@ -5,7 +5,7 @@ document.querySelector('#btn').onclick = function(){
     else {
         document.querySelector('#upmain').innerHTML += `
         <div class="flex flex-col">
-            <span class="upleft">&nbsp;&nbsp;&nbsp;&nbsp;${document.querySelector('#todo input').value}</span>
+            <span class="upleft">&nbsp;&nbsp;${document.querySelector('#todo input').value}</span>
             <span class="upright">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;${document.querySelector('#todo textarea').value}</span>
             <button class="upbtn">&times;</button>
         </div> `;
