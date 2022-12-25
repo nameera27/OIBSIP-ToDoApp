@@ -1,5 +1,7 @@
 *{
     background-color: #0e174b;
+    width: auto;
+    height: auto;
 }
 .hname{
     padding: 2px;
@@ -8,7 +10,7 @@
     background-color: white;
 }
 #todo{
-    margin-left: 125px;
+    margin-left: 170px;
     margin-top: 60px;
     width: 330px;
     height: 390px;
@@ -50,28 +52,33 @@
     background-color: rgb(1, 102, 1);
 }
 #menu{
-    margin-top: -30%;
+    margin-top: -27%;
 }
 .bar{
     float: left;
     margin-right: 15px;
-    margin-left: 270px;
+    margin-left: 280px;
     display: flex;
     color: white;
 }
 .ttl{
-    margin-left: 445px;
+    margin-left: 500px;
 }
 .desc{
-    margin-left: 200px;
+    margin-left: 130px;
     margin-right: 50px;
 }
 .dlt{
-    margin-left: 265px;
+    margin-left: 340px;
+}
+.hr{
+    margin-left: 540px;
+    margin-top: -20%;
+    width:730px;
 }
 #upmain{
-    margin-top: 60px;
-    margin-left: 455px;
+    margin-top: 30px;
+    margin-left: 515px;
     margin-right: 90px;
     height: 100px;
     background-color:#0e174b;
